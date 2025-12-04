@@ -1,0 +1,22 @@
+Input:
+
+populations = {
+    "Pakistan": 231,
+    "Bangladesh": 170,
+    "Afghanistan": 40,
+    "Iran": 87,
+    "Turkey": 85
+}
+
+print("Countries with populations above 50 million:")
+count = 0
+for country, population in populations.items():
+    if population > 50:
+        count += 1
+
+print(f"Number of countries: {count}")
+
+Output:
+
+Countries with populations above 50 million:
+Number of countries: 4
