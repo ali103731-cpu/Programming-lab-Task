@@ -1,0 +1,22 @@
+Input:
+
+fruits = {
+    "Mango": "Yellow",
+    "Guava": "Green",
+    "Pomegranate": "Red",
+    "Melon": "Green",
+    "Dates": "Brown"
+}
+
+print("Fruits and their colors:")
+for fruit, color in fruits.items():
+    print(f"{fruit} is {color}")
+
+Output:
+
+Fruits and their colors:
+Mango is Yellow
+Guava is Green
+Pomegranate is Red
+Melon is Green
+Dates is Brown
