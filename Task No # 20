@@ -1,0 +1,21 @@
+Input:
+
+subjects = {
+    "Urdu": 18,
+    "English": 12,
+    "Mathematics": 15,
+    "Pakistan Studies": 14,
+    "Islamiyat": 10
+}
+
+print("Total number of chapters:")
+total_chapters = 0
+for subject, chapters in subjects.items():
+    total_chapters += chapters
+
+print(f"Total chapters across all subjects: {total_chapters}")
+
+Output:
+
+Total number of chapters:
+Total chapters across all subjects: 69
