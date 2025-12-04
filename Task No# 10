@@ -1,0 +1,24 @@
+Input:
+
+inventory = {
+    "Notebooks": 45,
+    "Pens": 0,
+    "Registers": 28,
+    "Pencils": 0,
+    "Erasers": 36
+}
+
+print("Items with quantity equal to zero:")
+items = list(inventory.items())
+i = 0
+while i < len(items):
+    item, quantity = items[i]
+    if quantity == 0:
+        print(f"{item}: {quantity}")
+    i += 1
+
+Output:
+
+Items with quantity equal to zero:
+Pens: 0
+Pencils: 0
