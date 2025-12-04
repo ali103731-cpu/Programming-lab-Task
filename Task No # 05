@@ -1,0 +1,25 @@
+# 5. Book titles and page numbers - print books with more than 200 pages
+books = {
+    "Peer-e-Kamil": 456,
+    "Jannat Kay Pattay": 278,
+    "Aag Ka Darya": 567,
+    "Raja Gidh": 312,
+    "Khuda Ki Basti": 189
+}
+
+print("Books with more than 200 pages:")
+items = list(books.items())
+i = 0
+while i < len(items):
+    title, pages = items[i]
+    if pages > 200:
+        print(f"{title}: {pages} pages")
+    i += 1
+
+Output:
+
+Books with more than 200 pages:
+Peer-e-Kamil: 456 pages
+Jannat Kay Pattay: 278 pages
+Aag Ka Darya: 567 pages
+Raja Gidh: 312 pages
