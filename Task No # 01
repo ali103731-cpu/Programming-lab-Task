@@ -1,0 +1,26 @@
+Input:
+
+# 1. Dictionary of countries and capitals - print each country
+countries = {
+    "Pakistan": "Islamabad",
+    "Turkey": "Ankara",
+    "Malaysia": "Kuala Lumpur",
+    "Saudi Arabia": "Riyadh",
+    "Indonesia": "Jakarta"
+}
+
+print("Countries:")
+keys = list(countries.keys())
+i = 0
+while i < len(keys):
+    print(keys[i])
+    i += 1
+
+Output:
+
+Countries:
+Pakistan
+Turkey
+Malaysia
+Saudi Arabia
+Indonesia
