@@ -1,0 +1,21 @@
+Input:
+
+cars = {
+    "Suzuki": "Japan",
+    "Honda": "Japan",
+    "Toyota": "Japan",
+    "Kia": "South Korea",
+    "Hyundai": "South Korea"
+}
+
+print("Car brands made in Japan:")
+for brand, country in cars.items():
+    if country == "Japan":
+        print(brand)
+
+Output:
+
+Car brands made in Japan:
+Suzuki
+Honda
+Toyota
