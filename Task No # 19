@@ -1,0 +1,20 @@
+Input:
+
+phones = {
+    "Infinix Note 12": 1000,
+    "Tecno Spark 10": 2000,
+    "Samsung A54": 5000,
+    "Vivo Y55": 4000,
+    "Realme C55": 500
+}
+
+print("Phones with battery over 4500 mAh:")
+for phone, battery in phones.items():
+    if battery > 4500:
+        print(f"{phone}: {battery} mAh")
+
+
+Output:
+
+Phones with battery over 4500 mAh:
+Samsung A54: 5000 mAh
