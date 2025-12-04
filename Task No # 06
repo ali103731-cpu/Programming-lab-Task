@@ -1,0 +1,26 @@
+Input:
+
+# 6. Movies and release years - print movies released before 2010
+movies = {
+    "Khuda Kay Liye": 2007,
+    "Bol": 2011,
+    "Maula Jatt": 1979,
+    "Waar": 2013,
+    "Ramchand Pakistani": 2008
+}
+
+print("Movies released before 2010:")
+items = list(movies.items())
+i = 0
+while i < len(items):
+    movie, year = items[i]
+    if year < 2010:
+        print(f"{movie} ({year})")
+    i += 1
+
+Output:
+
+Movies released before 2010:
+Khuda Kay Liye (2007)
+Maula Jatt (1979)
+Ramchand Pakistani (2008)
