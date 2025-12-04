@@ -1,0 +1,25 @@
+Input:
+
+cities = {
+    "Karachi": 36,
+    "Lahore": 42,
+    "Islamabad": 28,
+    "Multan": 45,
+    "Quetta": 24
+}
+
+print("Cities with temperatures above 30:")
+items = list(cities.items())
+i = 0
+while i < len(items):
+    city, temp = items[i]
+    if temp > 30:
+        print(f"{city}: {temp}°C")
+    i += 1
+
+Output:
+
+Cities with temperatures above 30:
+Karachi: 36°C
+Lahore: 42°C
+Multan: 45°C
