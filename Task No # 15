@@ -1,0 +1,21 @@
+Input:
+
+grades = {
+    "Zainab": "A",
+    "Usman": "B",
+    "Mariam": "A",
+    "Hamza": "C",
+    "Hira": "A"
+}
+
+print("Students who got grade A:")
+for student, grade in grades.items():
+    if grade == "A":
+        print(student)
+
+Output:
+
+Students who got grade A:
+Zainab
+Mariam
+Hira
