@@ -1,0 +1,21 @@
+Input:
+
+salaries = {
+    "EMP201": 65000,
+    "EMP202": 48000,
+    "EMP203": 72000,
+    "EMP204": 55000,
+    "EMP205": 61000
+}
+
+print("Total salary calculation:")
+total = 0
+for emp_id, salary in salaries.items():
+    total += salary
+
+print(f"Total salary: Rs. {total}")
+
+Output:
+
+Total salary calculation:
+Total salary: Rs. 301000
