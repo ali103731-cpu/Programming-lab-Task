@@ -1,0 +1,25 @@
+Input:
+
+# 2. Student names and marks - print students who scored below 60
+students = {
+    "Ahmed": 78,
+    "Fatima": 42,
+    "Hassan": 85,
+    "Ayesha": 56,
+    "Bilal": 91
+}
+
+print("Students who scored below 60:")
+items = list(students.items())
+i = 0
+while i < len(items):
+    name, marks = items[i]
+    if marks < 60:
+        print(f"{name}: {marks}")
+    i += 1
+
+Output:
+
+Students who scored below 60:
+Fatima: 42
+Ayesha: 56
