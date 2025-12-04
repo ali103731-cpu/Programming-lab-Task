@@ -1,0 +1,24 @@
+Input:
+
+players = {
+    "Babar": 2850,
+    "Shaheen": 1920,
+    "Rizwan": 2340,
+    "Shadab": 1680,
+    "Fakhar": 2190
+}
+
+print("Highest score:")
+max_score = 0
+top_player = ""
+for player, score in players.items():
+    if score > max_score:
+        max_score = score
+        top_player = player
+
+print(f"{top_player}: {max_score} points")
+
+Output:
+
+Highest score:
+Babar: 2850 points
