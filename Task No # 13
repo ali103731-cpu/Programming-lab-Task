@@ -1,0 +1,21 @@
+Input:
+
+laptops = {
+    "HP ProBook": 8,
+    "Dell Inspiron": 16,
+    "Lenovo IdeaPad": 12,
+    "Acer Aspire": 16,
+    "Asus VivoBook": 20
+}
+
+print("Laptop models with RAM 16 GB or higher:")
+for model, ram in laptops.items():
+    if ram >= 16:
+        print(f"{model}: {ram} GB")
+
+Output:
+
+Laptop models with RAM 16 GB or higher:
+Dell Inspiron: 16 GB
+Acer Aspire: 16 GB
+Asus VivoBook: 20 GB
