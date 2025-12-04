@@ -1,0 +1,20 @@
+Input:
+
+stock = {
+    "Shalwar Kameez": 8,
+    "Kurta": 15,
+    "Dupatta": 5,
+    "Shawl": 22,
+    "Waistcoat": 7
+}
+
+print("Items that need restocking (stock < 10):")
+for product, level in stock.items():
+    if level < 10:
+        print(f"{product}: {level} units")
+Output:
+
+Items that need restocking (stock < 10):
+Shalwar Kameez: 8 units
+Dupatta: 5 units
+Waistcoat: 7 units
