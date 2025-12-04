@@ -1,0 +1,27 @@
+Input:
+
+animals = {
+    "Markhor": 12,
+    "Buffalo": 25,
+    "Camel": 40,
+    "Goat": 15,
+    "Cow": 20
+}
+
+print("Animal with shortest lifespan:")
+items = list(animals.items())
+min_lifespan = float('inf')
+min_animal = ""
+i = 0
+while i < len(items):
+    animal, lifespan = items[i]
+    if lifespan < min_lifespan:
+        min_lifespan = lifespan
+        min_animal = animal
+    i += 1
+print(f"{min_animal}: {min_lifespan} years")
+
+Output:
+
+Animal with shortest lifespan:
+Markhor: 12 years
